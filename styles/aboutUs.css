@@ -1,10 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: rgb(237, 224, 207);
   }
   
   html {
     box-sizing: border-box;
+  }
+  .titles{
+    padding: 1.2rem;
+    font-weight:bolder ;
   }
   
   *, *:before, *:after {
@@ -24,6 +29,7 @@ body {
     color: black;
     text-align: justify;
     padding:20px;
+    font-style: italic;
  }
  .row {
     display: flex;
@@ -36,32 +42,33 @@ body {
     flex: 33.33%;
     float: left;
     width: 33.3%;
-    padding: 0 10px;
+    padding: 10px;
+    border-radius: 5;
     
  }
  
  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 100%;
-    margin: 10px; 
+    /* margin: 10px; */
+    height:70%; 
+    
  
  }
  .card img {
     width: 100%;
-    height: auto;
+    height: 50%;
 }
 
  .about-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     /* background-image: url("../pages/aboutImage/studs.jpg"); */
-    padding: 50px;
-    text-align: center;
-    background-color: #474e5d;
-    color: white;
-  }
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
 
   .container {
     padding: 0 16px;
