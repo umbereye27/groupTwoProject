@@ -1,0 +1,61 @@
+*{
+    border: 0;
+    margin: 0;
+   
+
+};
+.WholePage{
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+.header{
+
+    width: 100%;
+    padding:10px;
+    margin: 0px auto;
+   
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.pageMenu ul{
+    list-style: none;
+
+}
+.pageMenu ul li{
+    display: inline;
+    padding: 10px;
+
+}
+.pageMenu ul a{
+    text-decoration: none;
+    
+
+}
+
+.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+
+    
+}
+
+#card{
+
+    width:30%;
+}
+#card img{
+     width: 100%;
+
+}
+
