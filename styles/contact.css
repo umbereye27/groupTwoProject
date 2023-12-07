@@ -86,3 +86,60 @@ contact-footer {
     height: 30px;
     margin: 0 5px;
 }
+#navigation{
+    background-color:rgba(5, 35, 49, 0.9);
+    width: 100%;
+   
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+.icons ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    list-style: none;
+    
+    /* margin-right: 400px; */
+    
+    
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    padding: 10px;
+    font-size: 15px;
+   
+    font-weight: bold;
+    color: aliceblue;
+   
+}
+.header2 ul{
+    display: flex;
+    gap: 20px;
+}
+.header2 ul li {
+list-style: none;
+
+}

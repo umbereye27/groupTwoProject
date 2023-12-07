@@ -1,24 +1,18 @@
 *{
     border: 0;
     margin: 0;
-   
-
 }
 body{
     padding: 20px;
 }
 .WholePage{
     width: 100%;
-    background-color: whitesmoke;
-    
+    background-color: rgba(25, 77, 110, 0.5);
 }
-
 .header{
-
     width: 100%;
     padding:10px;
     margin: 0px auto;
-   
 }
 .header{
     display: flex;
@@ -29,21 +23,15 @@ body{
 }
 .pageMenu ul{
     list-style: none;
-
 }
 .pageMenu ul li{
     display: inline;
     padding: 10px;
-
 }
 .pageMenu ul a{
     text-decoration: none;
-    
-
 }
-
 .cards{
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -54,13 +42,74 @@ body{
 
     
 }
-
 #card{
-
     width:30%;
 }
 #card img{
      width: 100%;
+}
+
+#navigation{
+    background-color:rgba(5, 35, 49, 0.9);
+    width: 100%;
+   
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
 
 }
+.icons ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    list-style: none;
+    
+    /* margin-right: 400px; */
+    
+    
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    padding: 10px;
+    font-size: 15px;
+   
+    font-weight: bold;
+    color: aliceblue;
+   
+}
+.header2 ul{
+    display: flex;
+    gap: 20px;
+}
+.header2 ul li {
+list-style: none;
+
+}
+
+
+
+
+
+
 

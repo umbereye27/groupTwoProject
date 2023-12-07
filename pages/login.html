@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Registration Form</title>
-  <link rel="stylesheet" href="../styles/registration.css">
-  <!-- Linking your CSS file -->
-</head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="../styles/login.css"> <!-- Linking your CSS file -->
+ </head>
 <body>
   <nav id="navigation">
     <div class="header1">
@@ -26,7 +25,7 @@
         <div id="logo">The Noble Academy <i class='bx bxs-school'></i></div>
         <div class="navbar">
             <ul>
-              <li><a href="../pages/index.html">Home</a></li>
+                <li><a href="../pages/index.html">Home</a></li>
                 <li><a href="../pages/aboutUs.html">About Us</a></li>
                 <li><a href="../pages/OurTeam.html">Our Team</a></li>
                 
@@ -37,27 +36,22 @@
     </div>
 </nav>
   <div class="container">
-  
+   
     <form action="#" method="post">
-       <h2>Registration</h2>
-      <div class="input-group">
+      <h2>Login</h2>
+       <div class="input-group">
         <label for="username">Username</label>
         <input type="text" id="username" name="username" required>
-       </div>
-      <div class="input-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
       </div>
       <div class="input-group">
         <label for="password">Password</label>
         <input type="password" id="password" name="password" required>
       </div>
       <div class="input-group">
-        <button type="submit">submit</button>
+        <button type="submit">Login</button>
       </div>
     </form>
-    <p>Your account has been created successfully!</p>
-    <p>Proceed to <a href="login.html">Login</a></p> <!-- Link to the login page -->
-  </div> 
+    <p>Don't have an account? <a href="registration.html">Create one</a></p> <!-- Link to the registration page -->
+  </div>
 </body>
-</html> 
+</html>
