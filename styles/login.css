@@ -1,9 +1,54 @@
-*{
-    padding: 0;
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(25, 77, 110, 0.5);
     margin: 0;
-    box-sizing: border-box;
-}
-#navigation{
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: rgb(218, 210, 210);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .input-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color:rgb(112, 53, 11);;
+    color: #fff;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color:rgb(112, 53, 11);;
+  }
+
+  #navigation{
     background-color:rgba(5, 35, 49, 0.9);
     width: 100%;
    
@@ -61,37 +106,7 @@ list-style: none;
 
 }
 
-main{
-    background: rgb(3, 133, 61);
-    background-image: linear-gradient(115deg, rgba(23, 25, 26, 0.9), rgba(9, 78, 121, 0.5)  ),
-    url(../images/education-polycom-video-conferencing.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-   
-    
-}
 
- @keyframes wordAnimation {
-    0% { color:black; transform: scale(1); }
-    50% { color: rgb(235, 240, 240); transform: scale(1.2); }
-    100% { color: rgba(239, 240, 246, 0.553); transform: scale(1.1); }
-}
 
-#mainC {
-    display: inline-block;
-    animation: wordAnimation 3s infinite;
-    display: flex;
- text-align: center;
- justify-content: center;
- align-items: center;
-padding-top: 200px;
-font-size: 40px;
-}  
 
-#logo{
-    margin-left: 500px;
-    padding-top: -10px;
-}
+
